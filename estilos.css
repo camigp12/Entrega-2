@@ -1,0 +1,390 @@
+html,
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+.header {
+    background-color: #B62335;
+    display: flex;
+    align-items: left;
+    width: 100%;
+}
+
+.div1 {
+    height: 16%;
+    width: 100%;
+    text-align: left;
+}
+
+
+.logo {
+    height: 10vh;
+    width: auto;
+    padding: 3vh;
+}
+
+.nav {
+    background-color: #670000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ul {
+    margin: 0;
+    white-space: nowrap;
+    overflow-x: auto;
+}
+
+.li {
+    font-size: 2vh;
+    font-weight: bold;
+    display: inline-block;
+    color: white;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+/*NOTICIA PRINCIPAl*/
+.contenedor1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+}
+
+h1 {
+    text-align: center;
+}
+
+.pulpo_img {
+    height: auto;
+    width: 40%;
+}
+
+.pulpo {
+    width: 100%;
+    border-radius: 5vh;
+}
+
+.pulpo_texto {
+    width: 50%;
+    padding: 2rem;
+    font-size: medium;
+    text-align: justify;
+}
+
+/* FIN NOTICIA PRINCIPAl*/
+
+.hr1 {
+    width: 80vw;
+    height: 0.05rem;
+    align-items: center;
+    background-color: grey;
+}
+
+/*NOTICIA BLOQUE 8*/
+.contenedor2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 1rem;
+}
+
+.caja_news8 {
+    width: 18rem;
+    height: 24rem;
+    margin: 1rem;
+}
+
+.caja_img8 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.n1 {
+    width: 15rem;
+    height: 14rem;
+    border-radius: 10%;
+    margin-top: 1rem;
+}
+
+.titulo_news8 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: medium;
+    font-weight: bold;
+    margin: 0.5rem;
+}
+
+.caja_texto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: small;
+    text-align: justify;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+/*FIN NOTICIA BLOQUE 8*/
+
+.hr2 {
+    background-color: #ce162b;
+    width: 9vw;
+    height: 0.06rem;
+}
+
+/*NOTICIA GRANDE*/
+.contenedor3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    flex-wrap: wrap;
+}
+
+.caja_news_grande {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.caja_img_grande {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ngrande {
+    width: 85vw;
+    height: 90vh;
+    border-radius: 10%;
+}
+
+.tgrande {
+    width: 100vw;
+    margin-top: 1rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+.tgrande_text {
+    width: 95vw;
+    text-align: center;
+    font-size: small;
+}
+
+.caja_t_grande {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+    font-weight: bold;
+    margin: 0.5rem;
+
+
+}
+
+.hr3 {
+    background-color: #ce162b;
+    width: 20vw;
+    height: 0.06rem;
+}
+
+/*FIN NOTICIA GRANDE*/
+
+/*NOTICIA BLOQUE 4*/
+.contenedor4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+
+.caja_news4 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.caja_img4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.2rem;
+}
+
+.n2 {
+    width: 20rem;
+    height: 20rem;
+    border-radius: 10%;
+    margin-top: 1rem;
+}
+
+.titulo_news4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: medium;
+    font-weight: bold;
+    margin: 0.5rem;
+}
+
+.caja_texto4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: small;
+    text-align: justify;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    width: 45vw;
+}
+
+/*FIN NOTICIA BLOQUE 8*/
+
+.hr2 {
+    background-color: #ce162b;
+    width: 9vw;
+    height: 0.06rem;
+}
+
+/*FIN NOTICIA BLOQUE 4*/
+
+.footer {
+    width: 100%;
+}
+
+/* TABLETS */
+@media (min-width: 401px) and (max-width: 700px) {
+
+    .contenedor4 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 3rem;
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+}
+
+
+/* MÓVILES */
+@media (max-width: 400px) {
+
+    .header {
+        background-color: #B62335;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .div1 {
+        height: 16vh;
+        text-align: center;
+    }
+
+    .logo {
+        height: 11vh;
+        padding-top: 3vh;
+    }
+
+    .ul {
+        margin: 0;
+        overflow-x: auto;
+        white-space: nowrap;
+        text-align: left;
+    }
+
+    .li {
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
+    }
+
+    /*NOTICIA PRINCIPAL*/
+
+    .contenedor1 {
+        flex-wrap: nowrap;
+        flex-direction: column;
+        padding: 3rem;
+    }
+
+    .pulpo_img {
+        height: 40%;
+        width: 100%;
+        text-align: center;
+    }
+
+    .pulpo {
+        height: 40%;
+        width: 80%;
+    }
+
+    .pulpo_texto {
+        width: 100%;
+        padding: 2rem;
+        font-size: small;
+    }
+
+    /*FIN NOTICIA PRINCIPAL*/
+
+    /*NOTICIA BLOQUE 8*/
+
+    .contenedor2 {
+        flex-direction: column;
+    }
+
+    .caja_news8 {
+        width: 18rem;
+        height: 26rem;
+        margin: 1rem;
+    }
+
+    .n1 {
+        width: 15rem;
+        height: 14rem;
+        border-radius: 10%;
+        margin-top: 1rem;
+    }
+
+    .titulo_news8 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: medium;
+        font-weight: bold;
+        margin: 0.5rem;
+    }
+
+    /*FIN NOTICIA BLOQUE 8*/
+
+    .ngrande {
+        width: 85vw;
+        height: 70vh;
+        border-radius: 10%;
+    }
+
+    .contenedor4 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 3rem;
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+
+    .caja_texto4 {
+        width: 90vw;
+
+    }
+
+}
